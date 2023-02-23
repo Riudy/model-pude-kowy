@@ -1,0 +1,24 @@
+div#blok1 {
+		background-color:green;
+		width:614px;
+		}
+		div#blok2 {
+		background-color:green;
+		width:614px;
+		}
+		div#blok3 {
+		background-color:green;
+		width:614px;
+		}
+		div#blok1:hover{
+		background-color:gold;
+		font-size:18mm;
+		}
+		div#blok2:hover{
+		background-color:silver;
+		font-size:18mm;
+		}
+		div#blok3:hover{
+		background-color:blue;
+		font-size:18mm;
+		}
