@@ -1,0 +1,70 @@
+<textarea  cols="85" rows="60 scrolling="no" >
+    <html>
+        <head>
+          <title>zad66 Paweł Miroński</title>
+          <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+          <style>
+           li {
+           margin: 0 0 6px 0;
+           padding: 10px 8px 10px 2em;
+           list-style: none;
+           border-bottom: 1px solid #AEAEAE;
+         </style>	
+       </head>
+           <body>
+           <ol>
+           <h1><li>Co to first-line w css?</li></h1>
+           <p>Pseduoelement first-line formatuje całą pierwszą linijke</p>
+           <p><b>Przykład:</b></p>
+           <textarea name="firstline" style="resize:none" rows="12" cols="42" readonly>
+               p
+               {
+               color:navy;
+               font-size:12pt;
+               }
+               p:first-line
+               {
+               color:red;
+               font-size:20pt;
+               font-weight:bold;
+               }
+           </textarea>
+           <h1><li>Co to :after oraz :before w css?</li></h1>
+           <p>Te elementy służą do umieszczania tekstu przed i </p>
+           <p>za formatowanym elementem strony.</p>
+           <p><b>Przykład:</b></p>
+           <textarea classname="after i before" style="resize:none" rows="16" cols="42" readonly>
+               p:before
+               {
+               content:"TO SĄ ĆWICZENIA";
+               font-size:15pt;
+               font-style:italic;
+               font-weight:bold;
+               }
+               p:after
+               {
+               content:"AUTOR Król Lew";
+               font-size:15pt;
+               font-style:italic;
+               font-weight:bold;
+               }
+           </textarea>
+           <h1><li>Co to :first-letter w css?</li></h1>
+           <p>:first-letter pozwala na formatowanie pierwszej litery w bloku tekstu.</p>
+           <p><b>Przykład:</b></p>
+           <textarea name="first letter" style="resize:none" rows="12" cols="40" readonly>
+               p
+               {
+               color:navy;
+               font-size:30pt;
+               }
+               p:first-letter
+               {
+               color:red;
+               font-size:100pt;
+               }
+           </textarea>
+           </ol>
+           </body>
+           </html>
+</textarea>

@@ -1,0 +1,47 @@
+p
+{
+font-size:10pt;
+}
+p:first-child
+{
+font-size:9mm;
+font-style:italic;
+}
+div#pierwszy_mironski
+{
+width: 756pt;
+background-color: pink;
+border-top-left-radius: 12px;
+border-bottom-right-radius: 12px;
+border-top-right-radius: 12px;
+border-bottom-left-radius: 12px;
+border: purple solid 7px;
+}
+div#drugi_mironski
+{
+width: 956pt;
+margin-left: auto;
+margin-right: auto;
+background-color: lightgreen;
+border-top-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom-left-radius: 15px;
+border: black solid 3px;
+}
+div#trzeci_mironski
+{
+width: 1156pt;
+margin-left: auto;
+margin-right: auto;
+background-color: lightblue;
+border-top-left-radius: 17px;
+border-bottom-right-radius: 17px;
+border-top-right-radius: 17px;
+border-bottom-left-radius: 17px;
+border: darkblue solid 5px;
+}
+body{
+    background-color:silver;
+}
+/*Paweł Miroński*/

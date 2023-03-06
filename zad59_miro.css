@@ -1,0 +1,27 @@
+A
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link
+{
+color: blue;
+}
+A:visited
+{
+color: green;
+}
+A:hover
+{
+color: red;
+text-decoration: underline;
+}
+div
+{
+    color:red;
+    font-size: 2cm;
+}
+/* Paweł Miroński 3F
+text-decoration: none - nie zmienia tekstu (np podkreślenia lub linia)
+text-decoration: underline - dodaje linie która podkreśla tekst
+*/
